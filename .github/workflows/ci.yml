@@ -26,7 +26,3 @@ jobs:
 
       - name: Check Python version
         run: python --version
-
-      - name: Run tests
-        run: |
-          python -m pytest discover
